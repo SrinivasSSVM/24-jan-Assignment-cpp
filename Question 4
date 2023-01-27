@@ -1,0 +1,16 @@
+4.	Write a c++ program that takes a double input from the user and then converts it to an integer using a type cast, rounding down to the nearest integer if necessary.
+
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    double d;
+    
+    cin>>"Enter a double number: ">>d;
+
+    int i = floor(d);
+    cout << "Rounded down integer: " << i << endl;
+
+    return 0;
+}
