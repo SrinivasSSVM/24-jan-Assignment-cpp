@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     float f;
-    cin>>"Enter floating Number:">>f;
+    cin>>f;
     
     int i = static_cast<int>(f);
     cout << "Converted integer: " << i << endl;
