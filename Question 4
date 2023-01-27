@@ -7,7 +7,7 @@ int main()
 {
     double d;
     
-    cin>>"Enter a double number: ">>d;
+    cin>>d;
 
     int i = floor(d);
     cout << "Rounded down integer: " << i << endl;
