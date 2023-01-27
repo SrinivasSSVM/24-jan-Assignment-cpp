@@ -9,7 +9,7 @@ int main()
     char inputChar;
     int convertedInt;
     
-    cin >> "Enter a char: ">>inputChar;
+    cin >>inputChar;
     convertedInt = dynamic_cast<int>(inputChar);
 
     cout << "Original character: " << inputChar << endl;
